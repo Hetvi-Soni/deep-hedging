@@ -1,0 +1,8 @@
+step,rows before,rows after,removed,note
+SPY: drop duplicate dates,5469,5469,0,keep first
+SPY: drop missing / non-positive prices,5469,5469,0,invalid quotes
+SPY: drop zero-volume days,5469,5469,0,no trading = stale price
+VIX: drop duplicates / missing / non-positive,5471,5471,0,invalid quotes
+Align SPY with VIX (inner join),5469,5469,0,dates present in both
+"Rate: forward-fill <= 5 days, drop rest",5469,5469,0,39 missing rates before filling
+Drop first row (no return),5469,5468,1,return needs a previous price
