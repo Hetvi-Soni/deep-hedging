@@ -1,0 +1,4 @@
+92 real SPX monthly ATM calls, 2019-01-16 to 2026-09-18; average implied vol 16.6%, average bid-ask spread 1.0% of the price.
+[cost 0.1%] lowest tail risk: Whalley-Wilmott (IV) (CVaR 1.124). BS delta (IV): mean P&L -0.009, CVaR 1.223; Whalley-Wilmott (IV): mean P&L +0.038, CVaR 1.124; Deep hedge (GBM-trained): mean P&L -0.007, CVaR 1.791; Deep hedge (Heston-trained): mean P&L -0.015, CVaR 1.481
+[cost 0.5%] lowest tail risk: Whalley-Wilmott (IV) (CVaR 1.600). BS delta (IV): mean P&L -0.753, CVaR 2.148; Whalley-Wilmott (IV): mean P&L -0.356, CVaR 1.600; Deep hedge (GBM-trained): mean P&L -0.484, CVaR 2.447; Deep hedge (Heston-trained): mean P&L -0.458, CVaR 2.207
+Databento: downloaded $1.0503 this run; 0 requests served from cache.
