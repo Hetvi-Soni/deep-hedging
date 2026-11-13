@@ -1,0 +1,4 @@
+# Raw market data from Databento: licensed, do not publish
+data/raw/databento/
+*.zip
+.ipynb_checkpoints/
