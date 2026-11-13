@@ -1,0 +1,7 @@
+Sanity check: with no costs, average gap between the learned hedge and BS delta = 0.028 shares.
+RQ1 [GBM, cost 0.1%]: CVaR 3.178 (deep) vs 3.349 (BS) -> +5.1% improvement.
+RQ1 [GBM, cost 0.5%]: CVaR 3.862 (deep) vs 4.434 (BS) -> +12.9% improvement.
+RQ1 [Heston, cost 0.1%]: CVaR 5.172 (deep) vs 5.215 (BS) -> +0.8% improvement.
+RQ1 [Heston, cost 0.5%]: CVaR 5.814 (deep) vs 6.040 (BS) -> +3.7% improvement.
+RQ2 preview [real 2019+, cost 0.1%, overlapping]: Heston-trained deep hedge 4.997 vs BS-with-VIX 5.186; GBM-trained 5.096 vs BS-constant 5.097.
+RQ2 preview [real 2019+, cost 0.5%, overlapping]: Heston-trained deep hedge 5.655 vs BS-with-VIX 6.006; GBM-trained 5.588 vs BS-constant 6.103.

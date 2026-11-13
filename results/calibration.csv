@@ -1,0 +1,10 @@
+,estimate
+GBM sigma (annual),0.18680624270550622
+VIX^2 -> realized variance scale,0.8140100669947439
+Heston kappa (mean reversion speed),3.4703342499379923
+Heston theta (long-run variance),0.035659177182233305
+Heston sqrt(theta) (long-run vol),0.18883637674514225
+Heston xi (vol of vol),0.5459744750378038
+Heston rho (leverage),-0.738656034862273
+Feller ratio 2*kappa*theta/xi^2 (>1 = variance stays positive),0.8302864322874628
+Half-life of a vol shock (days),50.33321775970924

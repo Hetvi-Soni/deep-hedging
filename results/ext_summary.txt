@@ -1,0 +1,18 @@
+[Sim GBM, cost 0.1%] improvement vs BS: mean +5.1% over 5 seeds (range +5.1% to +5.1%); 95% CI [+4.9%, +5.3%] -> significantly better.
+[Sim GBM, cost 0.5%] improvement vs BS: mean +12.9% over 5 seeds (range +12.9% to +13.0%); 95% CI [+12.7%, +13.1%] -> significantly better.
+[Sim Heston, cost 0.1%] improvement vs BS: mean +0.9% over 5 seeds (range +0.8% to +1.1%); 95% CI [+0.2%, +1.4%] -> significantly better.
+[Sim Heston, cost 0.5%] improvement vs BS: mean +3.4% over 5 seeds (range +2.9% to +3.7%); 95% CI [+2.8%, +4.7%] -> significantly better.
+[Real 2019+, GBM-trained vs BS delta (constant vol), cost 0.1%] mean +0.1%; 95% CI [-2.6%, +4.1%] -> not significantly different.
+[Real 2019+, GBM-trained vs BS delta (constant vol), cost 0.5%] mean +7.8%; 95% CI [+4.3%, +13.7%] -> significantly better.
+[Real 2019+, Heston-trained vs BS delta (VIX vol), cost 0.1%] mean +3.9%; 95% CI [-4.8%, +10.5%] -> not significantly different.
+[Real 2019+, Heston-trained vs BS delta (VIX vol), cost 0.5%] mean +4.8%; 95% CI [-6.0%, +16.2%] -> not significantly different.
+[Benchmarks, real SPY 2019+ (GBM setup), cost 0.1%] best classical = Whalley-Wilmott (5.000); deep hedge 5.096 (-1.9%).
+[Benchmarks, real SPY 2019+ (GBM setup), cost 0.5%] best classical = Whalley-Wilmott (5.510); deep hedge 5.588 (-1.4%).
+[Benchmarks, real SPY 2019+ (Heston setup), cost 0.1%] best classical = Whalley-Wilmott (5.054); deep hedge 4.997 (+1.1%).
+[Benchmarks, real SPY 2019+ (Heston setup), cost 0.5%] best classical = Whalley-Wilmott (5.550); deep hedge 5.655 (-1.9%).
+[Benchmarks, simulated GBM, cost 0.1%] best classical = Leland (3.287); deep hedge 3.178 (+3.3%).
+[Benchmarks, simulated GBM, cost 0.5%] best classical = Leland (4.034); deep hedge 3.862 (+4.3%).
+[Benchmarks, simulated Heston, cost 0.1%] best classical = Whalley-Wilmott (5.199); deep hedge 5.172 (+0.5%).
+[Benchmarks, simulated Heston, cost 0.5%] best classical = Whalley-Wilmott (5.810); deep hedge 5.814 (-0.1%).
+[Ablation, GBM, cost 0.5%] CVaR: BS 4.434, no memory 3.906, full 3.862 -> about 8% of the CVaR advantage comes from knowing the current position; trading costs: BS 0.964, no memory 0.788, full 0.688.
+[Ablation, Heston, cost 0.5%] CVaR: BS 6.040, no memory 5.955, full 5.814 -> about 63% of the CVaR advantage comes from knowing the current position; trading costs: BS 0.967, no memory 0.673, full 0.622.
